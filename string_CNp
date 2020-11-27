@@ -1,0 +1,13 @@
+s=str(input("Introduceti CNP-ul :"))
+n=0
+if (len(s) == 13) :
+    for i in s :
+        if ord(i) in range(48,58) :
+            n+=1
+    if (n==13) :
+            print('CNP-ul nu ste introdus corect')
+    else:
+            print('CNP-ul nu este introdus corect')    
+else:      
+   print('CNP-ul nu este introdus corect')
+         

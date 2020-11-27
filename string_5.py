@@ -1,0 +1,5 @@
+nume = str(input("Cum te numesti?\n"))
+ani = str(input("Cati ani ai?\n"))
+localitatea = str(input("In ce locuitate traiesti?\n"))
+strada = str(input("Cum se numeste strada unde locuiesti?\n"))
+print(f'Ma numesc {nume}, am {ani} ani, locuiesc in {localitatea} , strada {strada} ', end=".")
